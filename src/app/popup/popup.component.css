@@ -1,0 +1,85 @@
+body, html {
+    height: 100%;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+  .bg-img {
+    /* The image used */
+    background-image: url("https://res.cloudinary.com/monday-blogs/fl_lossy,f_auto,q_auto/wp-blog/2021/05/sales-forecasting-software.jpg");
+  
+    min-height: 800px;
+  
+    /* Center and scale the image nicely */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+  }
+.example-card { 
+    max-width: 400px;
+    background-color: white;
+    align-content: center;
+    position: absolute;
+    right: 10;
+    margin: 50px;
+    margin-left: 740px;
+    margin-top: 100px;
+    max-width: 300px;
+    padding: 15px;
+  }
+  
+  .example-header-image {
+    background-image: url('https://static.vecteezy.com/system/resources/thumbnails/004/999/406/small/growing-graph-bar-chart-flat-icon-isolated-on-the-white-background-flat-design-illustration-free-vector.jpg');
+    background-size: cover;
+  }
+
+.upload-box{
+  font-size: 13px;
+  background: white;
+  border-radius: 0px;
+  box-shadow: 5px 5px 10px black;
+  width: 240px;
+  outline: none;
+}
+::-webkit-file-upload-button{
+  color: white;
+  background: blueviolet;
+  padding: 15px;
+  border:none;
+  border-radius: 0px;
+  box-shadow:1px 0 1px 1px #2dbaf6;
+  outline:none;
+}
+::-webkit-file-upload-button:hover{
+  background: rgb(73, 6, 102);
+}
+.predbtn{
+  align-items: center;
+  background-color: blueviolet; 
+  color: white;
+  padding: 10px;
+  box-shadow:1px 0 1px 1px #2dbaf6;
+  border:none;
+}
+.rstbtn{
+  margin-left: 100px;
+  background-color: blueviolet;
+  color: white;
+  padding: 0px;
+  box-shadow:1px 0 1px 1px #2dbaf6;
+  border:none;
+}
+.predbtn:hover{
+  background:  rgb(73, 6, 102);
+}
+.rstbtn1{
+  align-items: center;
+  background-color: blueviolet;
+  color: white;
+  padding: 10px;
+  box-shadow:1px 0 1px 1px #2dbaf6;
+  border:none;
+}
+
+  
+  
+  

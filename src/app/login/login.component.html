@@ -1,0 +1,48 @@
+<div class="bg-img">
+
+
+<br><br>
+<p style="color: lightskyblue;text-align: left;font-size: xxx-large;font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;font-style:inherit;margin-left: 50px;">   SALES </p>
+<br>
+<p style="color: lightskyblue;text-align: left;font-size: xxx-large;font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;font-style: inherit;margin-left: 50px;">   FORECASTING</p>
+<mat-card class="example-card">
+    <mat-card-header>
+      <div mat-card-avatar class="example-header-image"></div>
+      <mat-card-title>Login</mat-card-title>
+      <mat-card-subtitle>Sales Forecasting</mat-card-subtitle>
+    </mat-card-header>
+    <img mat-card-image src="https://assets.website-files.com/60e7f71b22c6d0b9cf329ceb/621e1a2f28ded71ee95aeede_6ProvenSalesForecastingMethodstoDriveRevenue1_a117440b5ae227c3dba5264a6521da06_2000.png" alt="Photo of a Shiba Inu">
+    <mat-card-content>
+        <div class="example-container">
+            <mat-form-field appearance="fill">
+              <mat-label>Enter your email</mat-label>
+              <input matInput placeholder="name@example.com" [formControl]="email" required>
+              <mat-error *ngIf="email.invalid">{{getErrorMessage()}}</mat-error>
+            </mat-form-field> 
+            <br><br>
+            <mat-form-field appearance="fill">
+                <mat-label>Enter your password</mat-label>
+                <input matInput [type]="hide ? 'password' : 'text'" [formControl]="pwd" required>
+                <button mat-icon-button matSuffix (click)="hide = !hide" [attr.aria-label]="'Hide password'" [attr.aria-pressed]="hide">
+                  <mat-icon>{{hide ? 'visibility_off' : 'visibility'}}</mat-icon>
+                </button>
+                <mat-error *ngIf="pwd.invalid">{{getErrorMessage()}}</mat-error>
+              </mat-form-field>
+          </div> 
+    </mat-card-content>
+    <hr>
+    <mat-card-actions>
+      <div>
+      <a mat-raised-button class="button" [disabled]="email.invalid && pwd.invalid" color="primary" href="/popup" target="_blank" >Login</a>
+     </div>
+     <br>
+    </mat-card-actions> 
+  </mat-card>
+  <br>
+  
+  <br>
+  <div>
+    
+  </div>
+
+</div>

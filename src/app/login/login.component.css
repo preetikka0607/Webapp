@@ -1,0 +1,80 @@
+@import "~@angular/material/prebuilt-themes/indigo-pink.css"; 
+
+.example-card {
+    max-width: 400px;
+    background-color: white;
+    align-content: center;
+    align-items: center;
+    position: absolute;
+    right: 0;
+    margin: 50px;
+    max-width: 350px;
+    padding: 16px;
+  }
+  
+  .example-header-image {
+    background-image: url('https://static.vecteezy.com/system/resources/thumbnails/004/999/406/small/growing-graph-bar-chart-flat-icon-isolated-on-the-white-background-flat-design-illustration-free-vector.jpg');
+    background-size: cover;
+  }
+  .container {
+    position: absolute;
+    right: 0;
+    margin: 50px;
+    max-width: 300px;
+    padding: 16px;
+    background-color: white;
+    justify-content:"center";
+  }
+  body, html {
+    height: 100%;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+  .bg-img {
+    /* The image used */
+    background-image: url("https://www.veeqo.com/wp-content/uploads/blog/demand-forecasting-1024x538.jpg");
+  
+    min-height: 900px;
+  
+    /* Center and scale the image nicely */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+  }
+
+  .example-container .mat-form-field + .mat-form-field {
+    margin-left: 8px;
+  }
+  
+  .example-right-align {
+    text-align: right;
+  }
+  
+  input.example-right-align::-webkit-outer-spin-button,
+  input.example-right-align::-webkit-inner-spin-button {
+    display: none;
+  }
+  
+  input.example-right-align {
+    -moz-appearance: textfield;
+  }
+
+  button{
+    /*Change the width as much as you like, but make sure 
+    margin-left and margin-right + width = 100%*/
+    width:50%;
+    margin-left:25%;
+    margin-right:25%;  
+}
+.btn {
+  background-color: #04AA6D;
+  color: white;
+  padding: 16px 20px;
+  border: none;
+  cursor: pointer;
+  width: 100%;
+  opacity: 0.9;
+}
+  
+
+ 
